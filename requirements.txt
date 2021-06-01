@@ -23,7 +23,7 @@ transformers==4.5.0
 dotmap
 # for inference-rest-apis
 Werkzeug==0.16.1
-flask
+flask<2.0.0
 flask-restplus
 flask-cors
 dill # pickle extension for (de-)serialization
