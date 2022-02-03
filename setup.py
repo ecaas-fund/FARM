@@ -79,7 +79,7 @@ setup(
     install_requires=parsed_requirements,
     python_requires=">=3.6.0",
     extras_require={
-        "fasttext": ["fasttext==0.9.1"],
+        "fasttext": ["fasttext==0.9.2"],
         "onnx": ["onnxruntime"],
     },
     tests_require=["pytest"],
